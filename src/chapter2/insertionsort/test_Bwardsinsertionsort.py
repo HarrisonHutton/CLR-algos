@@ -31,7 +31,7 @@ class test_Insertionsort(unittest.TestCase):
     def test_three_partially_unsorted_values(self):
         arr = [35,7,23]
         bwardsinsertionsort(arr)
-        self.assertEqual(arr, [7,23,35])
+        self.assertEqual(arr, [35,23,7])
 
     def test_three_sorted_values(self):
         arr = [5,5,4]
