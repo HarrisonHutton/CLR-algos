@@ -1,4 +1,5 @@
 import unittest
+from Card import Card
 from cardsort import cardsort
 
 class Test_Cardsort(unittest.TestCase):
